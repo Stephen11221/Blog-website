@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "title": "About cars",
+      "author": "Eric ",
+      "body": "Cars are meant to be driven and taken care ",
+      "id": "7"
+    },
+    {
+      "id": "39d1",
+      "title": "sample",
+      "author": "sample author",
+      "body": "sample body"
+    },
+    {
+      "id": "4379",
+      "title": "steve",
+      "author": "w",
+      "body": "sample body"
+    },
+    {
+      "id": "7af9",
+      "title": "About cars",
+      "author": "STEVEN G",
+      "body": "Land Cruiser Prado mileage reported by users is 10.50 kmpl for city driving and 13.50 kmpl for highway driving.\n"
+    },
+    {
+      "id": "a0dc",
+      "title": "About cars",
+      "author": "Eric okabi",
+      "body": " has a best ever of 9.5km/ litre on a long trip. Day to day farm and commute fuel economy is around 7.3 km per litre.30 Mar 2014\n"
+    }
+  ]
+}
