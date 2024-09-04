@@ -6,7 +6,7 @@ class Home extends  Component{
             <div>
                 <h4>HOME PAGE</h4>
             </div>
-        );
+        )
     }
 }
 export default Home;
