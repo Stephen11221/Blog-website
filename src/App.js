@@ -10,11 +10,11 @@ import Create from './component/Create.js';
 function App() {
   return (
     <Router>
-    <div className="App">
+    <div className="app">
       <Navbar/>
         <div className='content'>
           <Switch>
-            <Route  path="home">
+            <Route   path="home">
               <Home/>
             </Route>
             <Route path="/Create"> 

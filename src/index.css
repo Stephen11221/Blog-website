@@ -63,3 +63,21 @@ input,  textarea {
   color: red;
   background: darkblue;
 }
+.btn-send{
+  background: green;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: none;
+}
+.contact-form{
+  width: 300px;
+}
+.container-main{
+  margin: 10px auto;
+  padding: 20px;
+  min-height: 400px;
+  border-radius: 9px;
+  max-width: 600px;
+
+  background: #747373;
+}
