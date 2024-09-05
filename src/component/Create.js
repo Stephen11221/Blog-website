@@ -2,7 +2,8 @@ import axios from 'axios';
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import { faTelegramPlane, faUserSecret, faTwitter } from '@fortawesome/free-brands-svg-icons/faTelegramPlane';
+import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
+import { faTelegramPlane } from '@fortawesome/free-brands-svg-icons/faTelegramPlane';
 import { toast, ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -42,8 +43,8 @@ function Create() {
   
 
   return (
-    <div>
-      <h2></h2>
+    <div className='app'>
+      <h2><FontAwesomeIcon icon={faUserCircle}/></h2>
       <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="formTitle">
           <Form.Label>Title:</Form.Label>
