@@ -44,7 +44,8 @@ function Create() {
 
   return (
     <div className='app'>
-      <h2><FontAwesomeIcon icon={faUserCircle}/></h2>
+      <h2 className='user'><FontAwesomeIcon icon={faUserCircle}/></h2>
+      <p className='user'>Create your blogs</p>
       <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="formTitle">
           <Form.Label>Title:</Form.Label>

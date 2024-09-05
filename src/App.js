@@ -7,7 +7,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/rea
 import Home from './component/home.js';
 import Contact from './component/Contact.js';
 import Create from './component/Create.js';
-function App() {
+import About from './component/About.js';
+function App() { 
   return (
     <Router>
     <div className="app">
@@ -16,6 +17,9 @@ function App() {
           <Switch>
             <Route   path="home">
               <Home/>
+            </Route>
+            <Route path="/About">
+              <About />
             </Route>
             <Route path="/Create"> 
               <Create/>

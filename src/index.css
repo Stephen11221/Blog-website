@@ -5,8 +5,54 @@
   font-family: "Quicksand";
   color: #333;
 }
-.app{
+.user{
+  
+  margin-top: 10px;
+  font-size: 2rem;
   text-align: center;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.grid >div{
+  padding-top: 40px;
+  text-align: center;
+  margin-top: 10px;
+  height: 150px;
+  font-size: 3rem;
+  width: 200px;
+  animation: 15s moveobject  infinite ;
+  margin-left: 12px;
+  border: #333 1px solid;
+}
+@keyframes moveobject {
+  from{
+    
+    border-radius: 12px ;
+    margin-left: 12px;
+    background: green;
+  }
+  to{
+    border-radius: 80px;
+    background: wheat;
+    margin-left: 50px;
+  }
+}
+
+.infor{
+text-align: left;
+  margin-top: 80px;
+}
+.body-about{
+  margin: 10px auto;
+  
+  max-height: 600px;
+  overflow-y: visible;
+  padding: 11px 14px;
+  max-width: 600px;
+  border-radius: 5px;
+  border: #333 1px solid ;
 }
 nav{
   display: flex;
